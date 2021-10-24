@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+header p {
+    color: #9096ad;
+    font-size: 40px;
+    font-family: Gill Sans, sans-serif;
+    margin: 0;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.left{
+    background-color: #303646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+    height: 100vh;
+}
+
+.right{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url("./assets/background.jpg") no-repeat center center / cover;
+    height: 100vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+}
